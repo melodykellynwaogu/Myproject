@@ -1,0 +1,22 @@
+/* set the background image */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url('/images/time-project.png') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Transparent form container */
+.form-container {
+    background: rgba(0, 0, 0, 0.6); /* semi-Transparent black background */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0 ,0.4);
+}
